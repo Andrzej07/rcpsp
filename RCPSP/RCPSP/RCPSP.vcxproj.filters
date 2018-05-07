@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Problem">
+      <UniqueIdentifier>{6cea965e-05ac-48ca-95d5-10e394db2d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{44802a6c-11b4-4475-beea-cc8818d585c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\30">
+      <UniqueIdentifier>{183459af-ae9e-4a4a-ada2-764786f5c23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Problem">
+      <UniqueIdentifier>{3e5a1161-9aec-450e-8c83-6826effaf3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithms">
+      <UniqueIdentifier>{d1bb5341-9694-45f2-ba04-8327d41a6845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithms">
+      <UniqueIdentifier>{e3e400ed-5d7c-436b-b38c-23bdc4140825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Heuristics">
+      <UniqueIdentifier>{4ff382df-4a36-4151-8e76-ff71f09e2169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Heuristics">
+      <UniqueIdentifier>{c91249fe-d4cc-4608-9ba3-7308b08194d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Benchmark">
+      <UniqueIdentifier>{7461016c-294f-4472-9c8d-c7121bbfeb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Benchmark">
+      <UniqueIdentifier>{3dac7bf1-80f2-455c-9951-432445fa627e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Instance.h">
+      <Filter>Header Files\Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Reader.h">
+      <Filter>Header Files\Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Header Files\Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution.h">
+      <Filter>Header Files\Problem</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialScheduleGenerator.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="ACOAlgorithm.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Heuristic.h">
+      <Filter>Header Files\Heuristics</Filter>
+    </ClInclude>
+    <ClInclude Include="GPRWHeuristic.h">
+      <Filter>Header Files\Heuristics</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimalSolutions.h">
+      <Filter>Header Files\Benchmark</Filter>
+    </ClInclude>
+    <ClInclude Include="ABCAlgorithm.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RCPSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Instance.cpp">
+      <Filter>Source Files\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Source Files\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution.cpp">
+      <Filter>Source Files\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialScheduleGenerator.cpp">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="ACOAlgorithm.cpp">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="GPRWHeuristic.cpp">
+      <Filter>Source Files\Heuristics</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimalSolutions.cpp">
+      <Filter>Source Files\Benchmark</Filter>
+    </ClCompile>
+    <ClCompile Include="ABCAlgorithm.cpp">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_10.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_1.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_2.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_3.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_4.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_5.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_6.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_7.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_8.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\j30rcp\J301_9.RCP">
+      <Filter>Data\30</Filter>
+    </None>
+  </ItemGroup>
+</Project>
